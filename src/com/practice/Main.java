@@ -46,5 +46,23 @@ public class Main {
         System.out.println("____MAX NUMBER OF FRUITS IN "+ numberOfBaskets +" DISTINCT BASKETS______");
         System.out.println(maxNumberOfFruits);
 
+
+
+/*
+        Given a string, find the length of the longest substring which has no repeating characters.
+
+                Example 1:
+
+        Input: String="aabccbb"
+        Output: 3
+        Explanation: The longest substring without any repeating characters is "abc".
+
+*/
+
+        str = "aabccbb";
+        int max = LengthOfLongestSubstrOfDistinctChar.findLength(str);
+        System.out.println("____LENGTH OF LONGEST SUBSTRING OF DISTINCT CHARACTERS______");
+        System.out.println(max);
+
     }
 }
