@@ -3,7 +3,7 @@ package com.practice;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LengthOfLongestSubstrOfDistinctChar {
+class LengthOfLongestSubstrOfDistinctChar {
 
     public static int findLength(String s){
 
